@@ -1,0 +1,268 @@
+/* ===========================
+           HEADING
+=========================== */
+
+.bg-color {
+  width: 100%;
+  height: 100%;
+  background-color: #262626;
+}
+
+
+#maincontain {
+  background-color: #262626;
+  position: relative;
+  z-index: 98;
+  margin-top: -35px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: futura;
+  background-color: #262626;
+}
+
+.text {
+  text-align: center;
+  height: 100px;
+}
+
+.text h1 {
+  margin: 0;
+  margin-top: -100px;
+  line-height: 100px;
+  color: #d13e3f;
+  font-size: 48px;
+}
+
+
+
+/* ===========================
+          NAV BAR
+=========================== */
+
+.nav {
+/*  background-color: #262626;*/
+  position: relative;
+  z-index: 200;
+  margin-top: -100px;
+}
+
+
+ul {
+  margin: 0;
+  padding: 0;
+/*  background: #262626;*/
+  color: #d13e3f;
+  display: flex;
+  border-bottom: 1px solid #d13e3f;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #d13e3f;
+  padding: 20px;
+  display: block;
+}
+
+section {
+  height: 300px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.changeColor {
+  background: #d13e3f;
+  transition: 1.5s all;
+}
+
+.changeColor-three {
+  background: #262626;
+  transition: 1.5s all;
+}
+
+.changeColor-one {
+  background: green;
+  transition: 1.5s all;
+}
+
+/* ===========================
+          PARALLAX
+=========================== */
+
+.image, 
+.image_layer {
+	height: 1000px;
+}
+
+#parallax {
+	display: block;
+}
+
+.image {
+	position: relative;
+	z-index: 10;
+}
+
+.image_layer {
+	background-position: bottom center;
+	background-size: auto 1038px;
+	background-repeat: repeat-x;
+	width: 100%;
+	position: absolute;
+}
+.image_layer.parallax {
+	position: fixed;
+}
+	#image-0 {
+		background-image: url(/img/parallax_0.png);
+		background-color: #262626;
+	}
+	#image-1 {
+		background-image: url(/img/parallax_1.png);
+	}
+	#image-2 {
+		background-image: url(/img/parallax_2.png);
+	}
+	#image-3 {
+		background-image: url(/img/parallax_3.png);
+	}
+	#image-4 {
+		background-image: url(/img/parallax_4.png);
+	}
+	#image-5 {
+		background-image: url(/img/parallax_5.png);
+	}
+	#image-6 {
+		background-image: url(/img/parallax_6.png);
+	}
+	#image-7 {
+		background-image: url(/img/parallax_7.png);
+	}
+	#image-8 {
+		background-image: url(/img/parallax_8.png);
+	}
+	#image-scrim {
+		background-color: #262626;
+		opacity: 0;
+	}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi){ 
+   	#image-0 {
+		background-image: url(/img/parallax_0.png);
+		background-color: #262626;
+	}
+	#image-1 {
+		background-image: url(/img/parallax_1.png);
+	}
+	#image-2 {
+		background-image: url(/img/parallax_2.png);
+	}
+	#image-3 {
+		background-image: url(/img/parallax_3.png);
+	}
+	#image-4 {
+		background-image: url(/img/parallax_4.png);
+	}
+	#image-5 {
+		background-image: url(/img/parallax_5.png);
+	}
+	#image-6 {
+		background-image: url(/img/parallax_6.png);
+	}
+	#image-7 {
+		background-image: url(/img/parallax_7.png);
+	}
+	#image-8 {
+		background-image: url(/img/parallax_8.png);
+	}
+}
+
+
+
+/* ===========================
+       SOCIAL ICONS
+=========================== */
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 150;
+  top: 830px;
+}
+
+#social-center {
+  margin: auto;
+  width: 15%;
+}
+
+
+.icon-3d {
+  padding-left: 15px;
+  animation: icon3d 200ms 10;
+  color: #dbdad9;
+}
+.icon-3d:hover {
+  animation: icon3d 200ms infinite;
+}
+
+@keyframes icon3d {
+  0% {
+    text-shadow: 5px 4px #f44336, -5px -6px #2196f3;
+  }
+  25% {
+    text-shadow: -5px -6px #f44336, 5px 4px #2196f3;
+  }
+  50% {
+    text-shadow: 5px -4px #f44336, -8px 4px #2196f3;
+  }
+  75% {
+    text-shadow: -8px -4px #f44336, -5px -4px #2196f3;
+  }
+  100% {
+    text-shadow: -5px 0 #f44336, 5px -4px #2196f3;
+  }
+}
+
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
